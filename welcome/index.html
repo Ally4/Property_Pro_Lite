@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <title>Property-Pro-Lite</title>
+    <link rel="stylesheet" href="./css/index.css">
+    </head>
+    <body>
+		<h1>This is the Property Pro Lite!.</h1>
+        <div class="login-page">
+            <div class="form">
+                <form class="register-form">
+Username    		<input id="l" type="text" placeholder=" userName" required></br>
+E-mail    		    <input id="l" type="e-mail" placeholder=" e-mail" required></br>
+Password    		<input id="l" type="password" placeholder=" password" required/></br>
+                    <button type="submit">Create</button>
+                    <p class="message">Already registered?.<a href="">Log in</a></p>
+				</form>
+                <form class="log-in"> 
+Username           <input text="text" placeholder=" Username" required></br>
+Password           <input text="password" type="password" placeholder=" password" required></br>
+                    <button type="submit">Log-in</button>
+					<p class="message">Not yet registed?. </br><a href="#">Register!.</a></p>
+				</form>
+				<form class="log-in">
+						<input text="text" placeholder="Username" required></br>
+						<button>Recover the password</button>
+                        <h3>Get back on our <a href="./index2.html">home</a> page</h3>
+					</form>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>
+        $(".message a").click(function(){
+            $("form").animate({height:"toggle", opacity:"toggle"}, "slow");
+        });
+        </script>
+    </body>
+</html>
