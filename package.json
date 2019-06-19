@@ -1,0 +1,26 @@
+{
+  "name": "property_pro_lite",
+  "version": "1.0.0",
+  "description": "Working space",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ally4/Property_Pro_Lite.git"
+  },
+  "author": "Ally",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ally4/Property_Pro_Lite/issues"
+  },
+  "homepage": "https://github.com/Ally4/Property_Pro_Lite#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
