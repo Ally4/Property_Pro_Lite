@@ -8,4 +8,5 @@ app.use((req, res, next) => {
     });
 });
 
+console.log("The server is listened to 4000 ...");
 module.exports = app;
